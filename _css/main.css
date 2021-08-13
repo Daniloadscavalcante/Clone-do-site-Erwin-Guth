@@ -1,0 +1,72 @@
+body, html, a, li{
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;     
+    font-family: roboto, sans-serif;    
+}
+
+/*HEADER*/
+header{
+    width:100%;    
+    background-color: #fff;
+    
+}
+.Logo-header{
+    max-width: 100%;
+    width: 230px;
+    height: 60px;       
+}
+.header-menu{
+    width:90%;
+    margin: auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+.wrapper-menu ul{
+    display:flex; 
+     
+}
+.wrapper-menu li{
+    margin-left: 20px;
+}
+.wrapper-menu a{
+    text-transform: uppercase;
+    color: #99cc00;
+    font-family: roboto, sans-serif;
+    font-weight: 500;   
+}
+.slide-carrossel{
+    width:100%;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+/*content gallery*/
+main h2{
+    text-align: center;
+}
+.box-product{
+    width:80%;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;    
+}
+.item-card{
+    width:350px;
+    padding: 15px;
+}
+.box-product article img{
+    max-width: 100%;
+}
+
+/*BANNER EM BREVE*/
+.em-breve{
+    height: 200px;
+    background-color: #711E82;
+    color: white;
+    font-size: 2rem;
+}
+.ofer-services{
+    background:orange;
+}
